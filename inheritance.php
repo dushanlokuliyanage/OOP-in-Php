@@ -26,7 +26,9 @@
         public function intro()
         {
             echo "The fruit is {$this->name} amd the color is {$this->color}.";
+       
         }
+         
     }
 
 
@@ -35,6 +37,7 @@
         public function message()
         {
             echo "Am I a fruit or a berry? ";
+            // $this->intro();
         }
     }
 $strawberry = new Strawberry("Storebarry", "red");
