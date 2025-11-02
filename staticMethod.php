@@ -37,6 +37,42 @@
 
 
 
+
+
+class Employee{
+
+    public static $emp = 0;
+
+public static function add_emp(){
+    self::$emp++;
+}
+
+
+}
+
+
+
+echo '<br>';
+echo '<br>';
+Employee::$emp = 10;
+echo 'Number of Employyee  '  . Employee::$emp;
+
+echo '<br>';
+
+Employee::add_emp();
+echo 'Number of Employyee  '  . Employee::$emp;
+
+
+     
+echo 'Php V: ' . phpversion();
+
+
+
+
+
+
+
+
     ?>
 
 
